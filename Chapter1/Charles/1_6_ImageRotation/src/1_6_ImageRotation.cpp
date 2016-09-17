@@ -14,8 +14,8 @@ using namespace std;
 template <size_t n>
 void printImage(unsigned int imageArray[n][n])
 {
-	for(unsigned int i = 0U; i < N; ++i) {
-		for(unsigned int j = 0U; j < N; ++j) {
+	for(unsigned int i = 0U; i < n; ++i) {
+		for(unsigned int j = 0U; j < n; ++j) {
 			cout << imageArray[i][j] << '\t';
 		}
 		cout << '\n';
