@@ -92,8 +92,6 @@ void printList(const Node* node)
 }
 
 void deleteDuplicate(Node* node) {
-	int temp = 0;
-	temp = node->getData();
 	Node * n = node->next();
 	while(n != 0x0) {
 
